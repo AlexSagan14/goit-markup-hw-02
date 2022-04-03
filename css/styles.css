@@ -3,7 +3,8 @@
 }
 
 .link,
-.logo-link {
+.logo-link,
+.functional-list {
     text-decoration: none;
 }
 
@@ -180,3 +181,37 @@ letter-spacing: 0.03em;
 /* =========== FOOTER ========== */
 
 /* =========== PORTFOLIO======== */
+
+.functional-list {
+    list-style: none;
+}
+
+.windows-titel-them {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+/* or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.windows-text {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+/* or 188% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.logo-acent {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
