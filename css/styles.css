@@ -11,6 +11,11 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.windows-list {
+ list-style: none;   
+}
+
 /* ======== COMPONENTS ======== */
 .modal-btn:hover,
 .modal-btn:focus {
@@ -34,7 +39,6 @@ color: #2196F3;
 }
 
 .menu-link {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -162,7 +166,14 @@ font-size: 26px;
 line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
-color: #2196F3;
+}
+
+.logo-acent {
+    color: #2196F3;
+}
+
+.logo-black-color {
+    color: #000000;
 }
 
 /* =========== HERO ============ */
@@ -214,4 +225,8 @@ line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: #2196F3;
+}
+
+.logo-white-color {
+    color: #FFFFFF;
 }
